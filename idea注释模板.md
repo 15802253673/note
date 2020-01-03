@@ -5,9 +5,9 @@
 ```java
 /**
  * @Description: 
- * @Author: yyl
+ * @ClassName: ${NAME}
+ * @Author: YangYong
  * @Date: ${DATE} ${TIME}
- * @version: 1.0
  */
 ```
 
