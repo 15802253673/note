@@ -53,7 +53,7 @@
        time()
        
    参数 PARAMS
-       groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i] + ((i < params.size() - 1) ? '\\r\\n' : '')}; return result", methodParameters()) returns：methodReturnType() exception：expressionType(Expression) 
+       groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @Param ' + params[i] + ((i < params.size() - 1) ? '\\r\\n' : '')}; return result", methodParameters()) returns：methodReturnType() exception：expressionType(Expression) 
        
    参数 RETURN
        methodReturnType()
