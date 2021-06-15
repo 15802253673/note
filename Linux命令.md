@@ -46,9 +46,33 @@
 
 * `lsof -i:端口号` 查看端口号信息
 
-* `netstat -ntlp|grep 端口号` 查看端口号信息
+* 查看端口命令
+
+  ```tex
+  1、netstat -a 查看所有端口
+  2、netstat -tunlp 查看端口占用情况
+  3、netstat -tunlp|grep + 端口号  查看某端口占用情况
+  4、netstat -ntlp|grep + 端口号  查看某端口占用情况
+  ```
 
 * `tial -f nohup.out` 查看启动日志
+
+* `sh start.sh` 启动.sh启动脚本命令
+
+* `cat + 文件名` 查看文件内容(不可修改内容)
+
+* `vi + 文件名` 查看文件内容（可修改内容）
+
+* `vim + 文件名` 查看文件内容（可修改内容）
+
+* 修改文件
+
+  ```tex
+  1、在vi或者vim查看下
+  2、insert在光标位置修改内容
+  3、修改完成以后 shift+: 输入保存命令
+  4、wq保存或者wq!强制保存
+  ```
 
 ## 操作数据库
 
