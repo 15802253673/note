@@ -81,3 +81,12 @@
 3. `show databases;` 显示所有库名
 4. `use financial;` 指定使用库
 5. 执行sql
+
+> 导出库
+>
+> sudo mysqldump -u用户名 -p 数据库名 --no-tablespaces > 文件名
+
+> 导出指定表结构和数据
+>
+> sudo mysqldump -u用户名 -p 数据库名 表明名--no-tablespaces > 文件名
+
